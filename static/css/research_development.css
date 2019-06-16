@@ -74,7 +74,7 @@
 .research_development .list_p:before {
     content: '12';
     color: transparent;
-    background: url(.././static/images/arrow-left.png) no-repeat center center;
+    background: url(.././images/arrow-left.png) no-repeat center center;
 }
 
 
