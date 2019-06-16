@@ -1,0 +1,112 @@
+/* home */
+.part{
+    width:100%;
+    height: 800px;
+    background-size: cover;
+    position: relative;
+}
+.home_part{
+    width:100%;
+    height: auto;
+    font-size: 0;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+.home_part img{
+    display:inline-block;
+    vertical-align: middle;
+    width:400px;
+    height:300px;
+}
+.home_part .text_wrap{
+    display:inline-block;
+    vertical-align: middle;
+    width:600px;
+    height:auto;
+    margin-left:20px;
+}
+.text_wrap h2{
+    font-size:42px;
+    color:#2e318b;
+    padding-bottom:30px;
+    text-align: left;
+}
+.text_wrap p{
+    width: 80%;
+    height:auto;
+    line-height: 24px;
+    font-size: 16px;
+    color:#000;
+    text-align: left;
+}
+.home_center_part{
+    width:500px;
+    margin:0 auto;
+    padding-top:150px;
+}
+.home_center_part h2{
+    font-size:42px;
+    color:#2e318b;
+    text-align: center;
+}
+.home_center_part p{
+    font-size:16px;
+    height:25px;
+    line-height: 25px;
+    color:#000;
+    text-align: center;
+}
+
+.logo_text{
+    display: block;
+    width:1000px;
+    height:auto;
+    margin:0 auto;
+    position: relative;
+    top:-100px;
+}
+
+.part_01{  
+    background: url(/static/images/home_bg_01.jpg) no-repeat top center; 
+    background-attachment: fixed;
+    background-size: 100% 800px;
+}
+.part_02{
+    background: url(/static/images/home_bg_02.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: 100% 800px;
+}
+.part_03 {
+    background: url(/static/images/home_bg_03.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: 100% 800px;
+}
+.part_04 {
+    background: url(/static/images/home_bg_04.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: 100% 800px;
+}
+.part_05 {
+    background: url(/static/images/home_bg_05.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: 100% 800px;
+}
+.part_06 {
+    background: url(/static/images/home_bg_06.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: 100% 800px;
+}
+.part_07 {
+    background: url(/static/images/home_bg_07.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: 100% 800px;
+}
+.part_08 {
+    background: url(/static/images/home_bg_08.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: 100% 800px;
+}

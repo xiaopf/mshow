@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Document</title>
+<link rel="stylesheet" href=".././static/css/reset.css">
+<link rel="stylesheet" href=".././static/css/common.css">
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src=".././commonJs.js"></script>
+
+    <link rel="stylesheet" href=".././static/css/contact.css">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB6X7j8end2uHUTXKdHO2J4kaAJu8IK1Wg&callback=initMap" type="text/javascript"></script>
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var uluru = {
+                lat: 52.204321,
+                lng: 0.114935
+            };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 10,
+                    center: uluru
+                });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+</head>
+<body>
+
+    <div class="navBar">
+    <a class="logo_wrap" href="">
+        <img src=".././static/images/logo.png" alt="">
+    </a>
+    <ul class="nav_wrap">
+        <li><a href="/mshow/home/">HOME</a></li>
+        <li><a href="/mshow/aboutUs/">ABOUT US</a></li>
+        <li>
+            <span><a class="lon_nav" href="/mshow/signature_materials/">SIGNATURE MATERIALS</a></span>
+            <ul class="sub_nav_wrap">
+                <li><a href="/mshow/signature_materials/#0">PRODUCTS</a></li>
+                <li><a href="/mshow/signature_materials/#1">UV TO IR OPTICS</a></li>
+                <li><a href="/mshow/signature_materials/#2">HIGH PURITY HAFNIUM</a></li>
+                <li><a href="/mshow/signature_materials/#3">CHALCOGENIDE GLASS</a></li>
+                <li><a href="/mshow/signature_materials/#4">PEROVSKITES</a></li>
+                <li><a href="/mshow/signature_materials/#5">HALIDE SALTS</a></li>
+                <li><a href="/mshow/signature_materials/#6">BATTERY CHEMICALS</a></li>
+                <li><a href="/mshow/signature_materials/#7">SEMICONDUCTORS</a></li>
+                <li><a href="/mshow/signature_materials/#8">PHOTOVOLTAICS</a></li>
+                <li><a href="/mshow/signature_materials/#9">TRANSPARENT CONDUCTORS</a></li>
+                <li><a href="/mshow/signature_materials/#10">PRECIOUS METALS</a></li>
+                <li><a href="/mshow/signature_materials/#11">THERMAL SPRAY POWDERS</a></li>
+                <li><a href="/mshow/signature_materials/#12">STARTER SOURCES</a></li>
+            </ul>
+        </li>
+        <li><a class="lon_nav" href="/mshow/analyticalServices/">ANALYTICAL SERVICES</a></li>
+        <li>
+            <span><a href="/mshow/manufacturing/">MANUFACTURING</a></span>
+            <ul class="sub_nav_wrap">
+                <li><a href="/mshow/manufacturing/#0">MANUFACTURING</a></li>
+                <li><a href="/mshow/manufacturing/#1">SAMPLE GEOMETRY</a></li>
+                <li><a href="/mshow/manufacturing/#2">PRODUCTION PROCESSES</a></li>
+                <li><a href="/mshow/manufacturing/#3">BACKING PLATES</a></li>
+                <li><a href="/mshow/manufacturing/#4">BONDING SERVICE</a></li>
+                <li><a href="/mshow/manufacturing/#5">SPUTTERING SYSTEMS (LVS)</a></li>
+            </ul>
+        </li>
+        <li><a class="lon_nav" href="/mshow/research_development/">RESEARCH & DEVELOPMENT</a></li>
+        <li>
+            <span><a href="/mshow/contact/">CONTACT</a></span>
+            <ul class="sub_nav_wrap">
+                <li><a href="/mshow/contact/#0">CONTACT/REQUESTS</a></li>
+                <li><a href="/mshow/contact/#1">DOCUMENTS</a></li>
+                <li><a href="/mshow/contact/#2">UPDATES</a></li>
+            </ul>
+        </li>
+        <li><a href="/mshow/career/">CAREERS</a></li>
+    </ul>
+</div>
+
+    <div class="content_aboutUs">
+        <img class="page_header_img" src=".././static/images/contact.jpg" alt="">
+        <div class="min_nav">
+            <a href="/mshow/home/">HOME</a>
+            <span>>></span>
+            <a href="">CONTACT US</a>
+        </div>
+
+        <div class="page_tab">
+            <ul class="page_tab_nav">
+                <li class='active'>CONTACT</li>
+                <li>Documents</li>
+                <li>Updates</li>
+            </ul>
+            <ul class="page_tab_content">
+                <li class="active">
+                    <h2>CONTACT US</h2>
+                    <div id="map"></div>
+                    <div class="address_wrap">
+                        <h4>
+                            Corporate Office
+                        </h4>
+                        <p>
+                            37 Ramland Road
+                        </p>
+                        <p>
+                            Orangeburg, NY 10962
+                        </p>
+                        <p>
+                            (855) 587 2436, +1 (845) 293 0587
+                        </p>
+                        <p>
+                            (845) 589 5975
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <h2>DOCUMENTS</h2>
+                    <div class="document_item">
+                        <a class="pdf_file" href="">Terms & Conditions of Sales</a>
+                    </div>
+                    <div class="document_item">
+                        <a class="pdf_file" href="">Terms & Conditions of Sales</a>
+                    </div>
+                    <div class="document_item">
+                        <a class="xls_file" href="">Terms & Conditions of Sales</a>
+                    </div>
+                    <div class="document_item">
+                        <a class="pdf_file" href="">Terms & Conditions of Sales</a>
+                    </div>
+                </li>
+                <li>
+                    <h2>UPDATES</h2>
+                    <div class="update_item">
+                        <h3>Changes to Product IDs</h3>
+                        <p>
+                            April 4, 2017
+                        </p>
+                        <p>
+                            Product IDs are in the process of being modified to include more forms. While old product IDs are still available new
+                            Product IDs will start with 2 letters to identify the form.
+                        </p>
+                        <p>
+                            [ Crucible Liner = CL, Conical Insert = CI, Ingot = IN, Granules = GR, Pieces = GP, Pellets = TP, Splatters = TS, Shots
+                            = SH, Powder = PO, Rod = RO, Sputtering Target = SP, Foil = FO, Ring = RC, Bonding Service = BS, Beads = BE, Cylinder =
+                            CY, Aggregate/Lump = AL, Delta Target = DT, Wire = WR, Endura Target = ET, Oval Target = OT, Wafer = WA, Liquid = LQ,
+                            Boat = BT, Crucible = CR, Crystal Bar = CB, Crystalline Pieces = CP, Disk = DK, Flakes = FL, Slugs = SL]
+                        </p>
+                        <p>
+                            Reference to old IDs in POs will be accepted.
+                        </p>
+                    </div>
+                    <div class="update_item">
+                        <h3>Changes to Product IDs</h3>
+                        <p>
+                            April 4, 2017
+                        </p>
+                        <p>
+                            Product IDs are in the process of being modified to include more forms. While old product IDs are still
+                            available new
+                            Product IDs will start with 2 letters to identify the form.
+                        </p>
+                        <p>
+                            [ Crucible Liner = CL, Conical Insert = CI, Ingot = IN, Granules = GR, Pieces = GP, Pellets = TP, Splatters =
+                            TS, Shots
+                            = SH, Powder = PO, Rod = RO, Sputtering Target = SP, Foil = FO, Ring = RC, Bonding Service = BS, Beads = BE,
+                            Cylinder =
+                            CY, Aggregate/Lump = AL, Delta Target = DT, Wire = WR, Endura Target = ET, Oval Target = OT, Wafer = WA, Liquid
+                            = LQ,
+                            Boat = BT, Crucible = CR, Crystal Bar = CB, Crystalline Pieces = CP, Disk = DK, Flakes = FL, Slugs = SL]
+                        </p>
+                        <p>
+                            Reference to old IDs in POs will be accepted.
+                        </p>
+                    </div>
+                    <div class="update_item">
+                        <h3>Changes to Product IDs</h3>
+                        <p>
+                            April 4, 2017
+                        </p>
+                        <p>
+                            Product IDs are in the process of being modified to include more forms. While old product IDs are still
+                            available new
+                            Product IDs will start with 2 letters to identify the form.
+                        </p>
+                        <p>
+                            [ Crucible Liner = CL, Conical Insert = CI, Ingot = IN, Granules = GR, Pieces = GP, Pellets = TP, Splatters =
+                            TS, Shots
+                            = SH, Powder = PO, Rod = RO, Sputtering Target = SP, Foil = FO, Ring = RC, Bonding Service = BS, Beads = BE,
+                            Cylinder =
+                            CY, Aggregate/Lump = AL, Delta Target = DT, Wire = WR, Endura Target = ET, Oval Target = OT, Wafer = WA, Liquid
+                            = LQ,
+                            Boat = BT, Crucible = CR, Crystal Bar = CB, Crystalline Pieces = CP, Disk = DK, Flakes = FL, Slugs = SL]
+                        </p>
+                        <p>
+                            Reference to old IDs in POs will be accepted.
+                        </p>
+                    </div>
+                    <div class="update_item">
+                        <h3>Changes to Product IDs</h3>
+                        <p>
+                            April 4, 2017
+                        </p>
+                        <p>
+                            Product IDs are in the process of being modified to include more forms. While old product IDs are still
+                            available new
+                            Product IDs will start with 2 letters to identify the form.
+                        </p>
+                        <p>
+                            [ Crucible Liner = CL, Conical Insert = CI, Ingot = IN, Granules = GR, Pieces = GP, Pellets = TP, Splatters =
+                            TS, Shots
+                            = SH, Powder = PO, Rod = RO, Sputtering Target = SP, Foil = FO, Ring = RC, Bonding Service = BS, Beads = BE,
+                            Cylinder =
+                            CY, Aggregate/Lump = AL, Delta Target = DT, Wire = WR, Endura Target = ET, Oval Target = OT, Wafer = WA, Liquid
+                            = LQ,
+                            Boat = BT, Crucible = CR, Crystal Bar = CB, Crystalline Pieces = CP, Disk = DK, Flakes = FL, Slugs = SL]
+                        </p>
+                        <p>
+                            Reference to old IDs in POs will be accepted.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <h2>VISION</h2>
+                    <p>
+                        LTS aspires to become the leading source for high-purity precision materials of the present and future technologies that
+                        power our world.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+
+
+     <div class="footer">
+     <ul class="footer_container">
+         <li>
+             <h2>GO TO</h2>
+             <p><a href="">HOME</a></p>
+             <p><a href="">SITEMAP</a></p>
+         </li>
+         <li>
+             <h2>Technical Capabilities</h2>
+             <p><a href="">HIGHLIGHTED MATERIALS</a></p>
+             <p><a href="">ANALYSIS</a></p>
+             <p><a href="">RESEARCH</a></p>
+             <p><a href="">MANUFACTURING</a></p>
+         </li>
+         <li>
+             <h2>COMPANY</h2>
+             <p><a href="">About Us</a></p>
+             <p><a href="">CONTACT</a></p>
+         </li>
+     </ul>
+     <p>© LTS Research Laboratories, Inc., All Rights Reserved.</p>
+ </div>
+</body>
+</html>
